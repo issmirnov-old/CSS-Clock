@@ -1,0 +1,83 @@
+body {
+    font-size: 16px; /* @ EOMB */
+}
+* html body {
+    font-size: 100%; /* @ IE */
+}
+body * {
+    font-size: 87.5%;
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+}
+body * * {
+    font-size: 100%;
+}
+h1 {
+    margin: 1em 0 1.5em;
+    font-size: 18px;
+}
+h2 {
+    margin: 2em 0 1.5em;
+    font-size: 16px;
+}
+p {
+    margin: 0;
+}
+pre, pre+p, p+p {
+    margin: 1em 0 0;
+}
+
+/* ==== THE CLOCK === */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#clockcontainer {
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	overflow : hidden;
+	}
+
+#clock {
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	background: url(../images/clockface.png);
+	list-style: none;
+	overflow : hidden;
+	}
+
+#sec, #min, #hour {
+	position: absolute;
+	width: 50px;
+	height: 1000px;
+	top: 0px;
+	left: 475px;/
+	}
+
+#sec {
+	background: url(../images/sechand.png);
+	z-index: 3;
+   	}
+   
+#min {
+	background: url(../images/minhand.png);
+	z-index: 2;
+   	}
+   
+#hour {
+	background: url(../images/hourhand.png);
+	z-index: 1;
+   	}
+   	
+p {
+    text-align: center; 
+    padding: 10px 0 0 0;
+    }
+            
+            
+
+
+            
